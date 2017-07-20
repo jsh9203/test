@@ -34,7 +34,7 @@ class JshMainVC: UIViewController {
     }
     
     
-    // 다른스토리보드로 가기
+    // 다른스토리보드로 가기 abcde
     @IBAction func actionOtherSB() {
         let ls_storyBoard : String = ("Cth")
         let lo_storyboard : UIStoryboard = UIStoryboard(name: ls_storyBoard, bundle: nil)
