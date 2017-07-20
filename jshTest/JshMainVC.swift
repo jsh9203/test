@@ -28,6 +28,7 @@ class JshMainVC: UIViewController {
     @IBAction func actionTossToSameStoryboard() {
         
 
+        // 주석주석 주서어어어억!!!
         let lo_callView = self.storyboard?.instantiateViewController(withIdentifier: "JshSecond")
         
         self.navigationController?.pushViewController(lo_callView!, animated: true)
